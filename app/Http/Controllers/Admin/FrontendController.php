@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
+use App\Models\Product;
+use Illuminate\Support\Facades\Facade;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -11,4 +14,8 @@ class FrontendController extends Controller
     {
         return view('admin.index');
     }
+
+   
+
+   
 }

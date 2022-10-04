@@ -1,3 +1,23 @@
+      <!-- Styles -->
+      <link href="{{ asset('frontend/css/custom.css') }} " rel="stylesheet">
+      <link href="{{ asset('frontend/css/bootsrap5.css') }} " rel="stylesheet">
+      <link href="{{ asset('frontend/css/owl.carousel.min.css') }} " rel="stylesheet">
+      <link href="{{ asset('frontend/css/owl.theme.default.min.css') }} " rel="stylesheet">
+    <link href="{{ asset('admin/css/custom.css') }} " rel="stylesheet">
+    <link href="{{ asset('admin/css/material-dashboard.css') }} " rel="stylesheet">
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="{{ asset('assets/css/nucleo-icons.css') }}" rel="stylesheet" />
+  <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="{{ asset('assets/css/material-dashboard.css') }}" rel="stylesheet" />
+
 <div class="container-fluid py-4">
     <div class="row">
       <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">

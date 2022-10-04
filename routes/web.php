@@ -19,9 +19,13 @@ use App\Http\Controllers\frontend\FrontendController;
 
 Route::get('/',[FrontendController::class,'index']);
 
+Route::get('category',[FrontendController::class ,'category']);
+
+Route::get('view-category/{slug}',[FrontendController::class,'viewcategory']);
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 // to show dashboard page if the user is admin
 

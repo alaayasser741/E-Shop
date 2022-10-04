@@ -32,8 +32,8 @@
                         <img src="{{ asset('assets/uploads/category/'. $item->image) }}" alt="Image here" class="cate-image">
                     </td>
                     <td>
-                       <a href="{{ url('edit-product/'.$item->id) }}" class="btn  btn-info">Edit</a>
-                       <a href="{{ url('delete-product/'.$item->id) }}" class="btn  btn-danger">Delete</a>
+                       <a href="{{ url('edit-category/'.$item->id) }}" class="btn  btn-info">Edit</a>
+                       <a href="{{ url('delete-category/'.$item->id) }}" class="btn  btn-danger">Delete</a>
                         
                     </td>
                 </tr>
